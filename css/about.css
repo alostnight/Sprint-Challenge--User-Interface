@@ -79,8 +79,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-#container-1 {
-    margin: 55px;
+.container {
+    margin: 5%;
 }
 .nav-bar {
     display: flex;
@@ -107,22 +107,34 @@ nav a {
     padding: 0px 0px 20px 0px;
 }
 .first-banner {
-    width: 80%;
+    width: 100%;
 }
-#row-1 {
+.row-1 {
     display: flex;
-    flex-direction: row;
-    width: 1px;
+    justify-content: space-between;
 }
-.box {
-    border: solid 2px black;
-}
-.r1img {
+.row-2 {
     display: flex;
+    justify-content: space-between;
 }
-img {
-    justify-content: space-around;
+.mid {
+    width: 90%;
+ 
+}
+.box{
+    width: 48%;
+}
+.lm-bt {
+	background-color: none;
+	border-color: solid 1px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 25px 25px 25px 25px;
+}
+h2 {
+    margin: 10px;
 }
 p {
-    width: 40%;
+    margin: 15px;
 }
