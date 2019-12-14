@@ -144,3 +144,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#container-1 {
+    margin: 55px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+
+}
+nav{
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+.nav-logo {
+    padding: 0px 0px 20px 0px;
+}
+.first-banner {
+    width: 100%;
+}
+.top-content {
+    display: flex;
+}
+.text-container {
+    margin: 1%;
+}
